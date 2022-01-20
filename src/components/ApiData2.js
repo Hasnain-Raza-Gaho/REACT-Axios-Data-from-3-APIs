@@ -13,7 +13,7 @@ function App(){
     .then((snap)=>{
       const data1 = snap.data;
       console.log(data1)
-      setdata1(data1.slice(0,30))
+      setdata1(data1.slice(0,20))
      
   })
   console.log('1')
